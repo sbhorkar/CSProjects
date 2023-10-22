@@ -1,0 +1,36 @@
+Customer 1
+Tall Iced White Mocha    $4.65
+    Add Whipped Cream        $0.50
+Total               $5.05
+
+Customer 2
+Grande Hot Chocolate    $3.95
+    Remove Whipped Cream   
+Venti Iced Pink Drink        $4.95
+Total               $8.90
+
+Customer 3
+Tall Hot White Mocha    $3.25
+    Add 4 Pumps Caramel Syrup   $0.75
+Total               $4.00
+
+Customer 4
+Grande Iced Caramel Macchiato   $4.05
+Venti Iced Mango Dragonfruit Refresher        $5.25
+Tall Hot Latte          $3.15
+    	Add 1 shot of Espresso      $0.50
+	Add Vanilla Sweet Cream Cold Foam	$1.00
+	Add Caramel Drizzle
+	Add Banana							$1.00
+	Remove Whipped Cream
+Total               $13.95
+
+Customer 5
+Venti Iced Caramel Frappe   $5.75
+Total               $5.75
+
+Customer 6
+Grande Iced Water   $0.00
+    Add Whipped Cream   $0.00
+    Add 27 Pumps of Caramel Syrup $0.50
+Total $.50
