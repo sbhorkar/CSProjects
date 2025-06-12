@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ScannerTester
+comment0.text=\n\ The\ ScannerTester\ class\ uses\ files\ ScannerTest.txt\ and\ \n\ scannerTestAdvanced.txt\ in\ order\ to\ check\ the\ Scanner\ class\ and\ its\ methods.\n\ \n\ @author\ Sanaa\ Bhorkar\n\n\ @version\ 08/31/2023\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ function\ creates\ a\ new\ scanner\ and\ prints\ out\ all\ the\ tokens\ \n\ in\ order\ to\ check\ that\ they\ are\ correct.\n\n\ @param\ args\ arguments\ from\ the\ command\ line\n
+numComments=2
