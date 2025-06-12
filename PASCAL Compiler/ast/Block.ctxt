@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\n\ The\ Block\ class\ is\ for\ a\ block\ of\ statements\ in\ the\ program.\ It\ goes\n\ through\ each\ statement\ one\ by\ one\ and\ executes\ them.\ \n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=stmts
+comment1.target=Block(java.util.List)
+comment1.text=\n\ Creates\ a\ new\ Block\ object.\n\ \n\ @param\ stmts\ the\ list\ of\ statements\ in\ the\ block\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ The\ exec()\ method\ goes\ through\ each\ statement\ in\ the\ block\ and\n\ executes\ them\ in\ the\ given\ environment.\n\ \n\ @param\ env\ the\ given\ environment\n\ @postcondition\ the\ statements\ in\ the\ block\ have\ been\ executed\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ each\ statement\ in\ the\ block\ to\ \n\ MIPS\ assembly\ code.\ It\ uses\ an\ emitter\ to\ write\ the\ converted\ code\n\ to\ an\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

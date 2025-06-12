@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\n\ The\ Program\ class\ represents\ the\ root\ of\ the\ AST\ nodes\ and\ contains\ a\ list\n\ of\ the\ procedure\ declarations\ as\ well\ as\ the\ statement\ that\ follows\ the\n\ procedure\ declarations.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/31/2023\n
+comment1.params=vars\ proDecs\ stmt
+comment1.target=Program(java.util.List,\ java.util.List,\ Statement)
+comment1.text=\n\ The\ Program\ constructor\ creates\ a\ new\ Program\ object\ and\ instantiates\n\ the\ two\ instance\ variables\:\ the\ list\ of\ procedure\ declarations\ as\ well\n\ as\ the\ statement\ that\ follows\ the\ procedure\ declarations.\ \n\ \n\ @param\ vars\ \ \ \ the\ list\ of\ variables\ in\ the\ program\n\ @param\ proDecs\ the\ list\ of\ procedure\ declarations\n\ @param\ stmt\ \ \ \ the\ statement\ that\ follows\ proDecs\n\ @postcondition\ a\ new\ Program\ object\ is\ created\n
+comment2.params=str
+comment2.target=void\ addVars(java.lang.String)
+comment2.text=\n\ The\ addVars()\ method\ adds\ a\ given\ variable\ to\ the\ list\ of\ variables\ after\n\ determining\ it\ is\ not\ a\ local\ variable.\n\ \n\ @param\ str\ the\ parameter\ that\ is\ not\ a\ local\ variable\n
+comment3.params=env
+comment3.target=void\ exec(environment.Environment)
+comment3.text=\n\ The\ exec()\ method\ executes\ the\ program\ by\ executing\ each\ program\n\ declaration\ in\ the\ list\ and\ then\ executing\ the\ statement\ that\ follows.\n\ \n\ @param\ env\ the\ given\ environment\n\ @postcondition\ everything\ in\ the\ program\ has\ executed,\ meaning\ the\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ entire\ code\ file\ has\ executed\n
+comment4.params=output
+comment4.target=void\ compile(java.lang.String)
+comment4.text=\n\ The\ compile()\ method\ creates\ the\ structure\ for\ the\ converted\ MIPS\n\ code\ for\ the\ program.\ It\ uses\ an\ emitter\ to\ create\ the\ JavaDoc,\ \n\ a\ .data\ section\ for\ all\ the\ variables\ in\ the\ program,\ and\ the\ main\ \n\ label.\ It\ also\ has\ the\ termination\ for\ MIPS.\n\ \n\ @param\ output\ the\ name\ of\ the\ output\ file\ for\ the\ converted\ MIPS\ code\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Statement
+comment0.text=\n\ The\ Statment\ class\ is\ an\ abstract\ class\ that\ is\ the\ base\ of\ several\n\ statements\ in\ the\ program\ such\ as\ If,\ While,\ and\ Writeln.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ The\ exec()\ method\ executes\ the\ statement\ in\ a\ given\ environment.\n\ \n\ @param\ env\ the\ environment\ for\ the\ statement\n\ @postcondition\ the\ statement\ has\ been\ executed\n
+comment2.params=e
+comment2.target=void\ compile(emitter.Emitter)
+comment2.text=\n\ The\ compile()\ method\ converts\ the\ PASCAL\ code\ for\ the\ statement\ into\n\ MIPS\ code.\ It\ uses\ an\ emitter\ to\ write\ this\ code\ into\ an\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ into\ an\ output\ file\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Condition
+comment0.text=\n\ The\ Condtion\ class\ is\ for\ boolean\ conditions\ used\ in\ while\ and\ if\ loops.\ \n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=relop\ exp1\ exp2
+comment1.target=Condition(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Creates\ a\ new\ Condition\ object.\n\ \n\ @param\ relop\ is\ the\ operator\ used\ in\ the\ operation\n\ @param\ exp1\ is\ the\ first\ expression\n\ @param\ exp2\ is\ the\ second\ expression\n
+comment2.params=env
+comment2.target=boolean\ eval(environment.Environment)
+comment2.text=\n\ The\ eval()\ method\ checks\ the\ condition\ and\ returns\ true\ if\ true\ and\n\ false\ if\ false\ for\ the\ given\ environment.\ \n\ \n\ @param\ env\ the\ given\ environment\n\ @return\ true\ if\ the\ condition\ is\ true,\ otherwise\ false\n
+comment3.params=e\ target
+comment3.target=void\ compile(emitter.Emitter,\ java.lang.String)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ condition\ to\ MIPS\ code.\ It\ first\ \n\ stores\ each\ expression,\ and\ then\ creates\ the\ conditional\ statement\ by\ \n\ negating\ the\ relop\ in\ the\ code.\ It\ also\ takes\ in\ a\ label\ for\ the\ \n\ conditional.\ It\ uses\ an\ emitter\ to\ write\ this\ code\ to\ the\ output\n\ file.\n\ \n\ @param\ e\ \ \ \ \ \ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n\ @param\ target\ the\ label\ that\ allows\ you\ to\ skip\ the\ code\ if\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ conditional\ is\ true\n
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinOp
+comment0.text=\n\ The\ BinOp\ class\ is\ expressions\ where\ there\ are\ two\ other\ expressions\ on\ \n\ either\ side\ of\ a\ binary\ operator\ like\ +,\ -,\ *,\ /,\ and\ mod.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=op\ exp1\ exp2
+comment1.target=BinOp(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Creates\ a\ new\ BinOp\ object.\n\ \n\ @param\ op\ is\ the\ operator\ used\ in\ the\ operation\n\ @param\ exp1\ is\ the\ first\ expression\n\ @param\ exp2\ is\ the\ second\ expression\n
+comment2.params=env
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ The\ eval()\ method\ evaluates\ the\ expression\ by\ evaluating\ the\ two\n\ expressions\ and\ performing\ whichever\ operation\ was\ in\ the\ BinOp\ \n\ statement\ between\ the\ two\ expressions.\n\ \n\ @param\ env\ the\ given\ environment\n\ @return\ the\ value\ that\ the\ BinOp\ evaluates\ to\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ binary\ operation\ to\ MIPS\ code.\ It\n\ checks\ which\ operator\ the\ expression\ is\ using,\ and\ then\ creates\n\ the\ MIPS\ instruction\ for\ that\ operator.\ It\ also\ pushes\ and\ pops\ the\n\ compiled\ expressions.\ It\ uses\ an\ emitter\ to\ write\ this\ code\n\ into\ the\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

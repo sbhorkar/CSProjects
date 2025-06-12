@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Variable
+comment0.text=\n\ The\ Variable\ class\ is\ for\ getting\ the\ value\ stored\ under\ a\ variable\n\ name.\ \n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=name
+comment1.target=Variable(java.lang.String)
+comment1.text=\n\ Creates\ a\ new\ Variable\ object.\n\ \n\ @param\ name\ the\ name\ of\ the\ variable\n
+comment2.params=env
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ The\ eval()\ method\ gets\ the\ value\ for\ the\ given\ variable\ that\ is\ stored\n\ in\ the\ HashMap\ of\ the\ given\ environment.\n\ \n\ @param\ env\ the\ given\ environment\n\ @return\ the\ value\ corresponding\ to\ the\ variable\ name\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ Variable\ code\ into\ MIPS\ code.\ It\ uses\ an\ \n\ emitter\ to\ write\ the\ converted\ code\ to\ an\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

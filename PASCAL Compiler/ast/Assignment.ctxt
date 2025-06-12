@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Assignment
+comment0.text=\n\ The\ Assignment\ class\ is\ for\ variable\ assignments\ in\ the\ program.\ It\n\ stores\ the\ value\ for\ each\ variable\ name\ in\ a\ HashMap.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=id\ value
+comment1.target=Assignment(java.lang.String,\ Expression)
+comment1.text=\n\ Creates\ a\ new\ Assignment\ object.\n\ \n\ @param\ id\ \ \ \ the\ name\ of\ the\ variable\n\ @param\ value\ the\ value\ assigned\ to\ the\ variable\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ The\ exec()\ method\ sets\ the\ value\ of\ each\ variable\ in\ the\ HashMap\ for\n\ a\ given\ environment.\n\ \n\ @param\ env\ the\ given\ environment\n\ @postcondition\ the\ value\ of\ the\ variable\ has\ been\ set\ in\ the\ HashMap\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ variable\ assignment\ to\ MIPS\ code.\ \n\ It\ compiles\ the\ value\ and\ stores\ it\ into\ the\ variable.\ It\ uses\n\ an\ emitter\ to\ write\ this\ code\ into\ the\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

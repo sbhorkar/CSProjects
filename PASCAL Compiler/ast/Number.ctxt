@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Number
+comment0.text=\n\ The\ Number\ class\ is\ specifically\ for\ fully\ evaluated\ numbers\ in\ the\ \n\ program.\ It\ only\ stores\ the\ value\ of\ the\ number\ and\ returns\ it\ when\n\ evaluated.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=value
+comment1.target=Number(int)
+comment1.text=\n\ Creates\ a\ new\ Number\ object.\n\ \n\ @param\ value\ is\ the\ stored\ value\ of\ the\ number\n
+comment2.params=env
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ The\ eval()\ method\ returns\ the\ number's\ value\ in\ a\ given\ environment.\n\ \n\ @param\ env\ the\ given\ evironment\n\ @return\ the\ value\ of\ the\ number\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ expression\ into\ MIPS\ code.\ It\ loads\n\ the\ value\ of\ the\ number\ into\ $v0.\ It\ uses\ an\ emitter\ to\ write\ this\ \n\ code\ into\ the\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

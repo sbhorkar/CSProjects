@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Writeln
+comment0.text=\n\ The\ Writeln\ class\ is\ for\ WRITELN()\ statements\ in\ the\ program.\ It\ executes\n\ by\ printing\ the\ expression\ in\ the\ paranthesis.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=exp
+comment1.target=Writeln(Expression)
+comment1.text=\n\ Creates\ a\ new\ Writeln\ object.\n\ \n\ @param\ exp\ is\ the\ expression\ whose\ value\ should\ be\ printed\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ The\ exec()\ method\ executes\ the\ Writeln\ statement\ by\ printing\ what\ the\n\ expression\ evaluates\ to\ in\ a\ given\ environment.\n\ \n\ @param\ env\ the\ given\ environment\n\ @postcondition\ the\ expression\ has\ been\ printed\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ statement\ to\ MIPS\ code.\ It\ compiles\ \n\ the\ expression\ and\ prints\ it\ out.\ It\ uses\ an\ emitter\ to\ write\ this\ \n\ code\ into\ the\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

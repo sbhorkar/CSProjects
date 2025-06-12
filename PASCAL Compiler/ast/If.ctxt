@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=If
+comment0.text=\n\ The\ If\ class\ is\ for\ if\ blocks\ in\ the\ program.\ It\ checks\ against\ a\ \n\ condition\ and\ performs\ the\ inside\ of\ the\ block\ if\ the\ condition\ is\ true.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/13/2023\n
+comment1.params=cond\ stmt
+comment1.target=If(Condition,\ Statement)
+comment1.text=\n\ Creates\ a\ new\ If\ object.\n\ \n\ @param\ cond\ is\ the\ condition\ checked\ in\ the\ if\ block\n\ @param\ stmt\ is\ the\ statement\ that\ executes\ if\ the\ condition\ is\ true\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ The\ exec()\ method\ checks\ to\ see\ if\ the\ condition\ is\ true.\ If\ it\ is,\ \n\ the\ if\ block\ executes\ for\ the\ given\ environment.\ \n\ \n\ @param\ env\ the\ given\ environment\n\ @postcondition\ the\ if\ block\ has\ been\ executed,\ if\ the\ condition\ is\ true\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ converts\ the\ condition\ and\ statement\ in\ the\ If\ to\n\ MIPS\ assembly\ code.\ It\ also\ uses\ the\ nextLabelID()\ method\ from\ the\ \n\ Emitter\ class\ to\ create\ the\ labels\ for\ each\ conditional.\ It\ uses\ the\ \n\ emitter\ to\ write\ the\ converted\ code\ to\ an\ output\ file.\n\ \n\ @param\ e\ the\ emitter\ that\ writes\ the\ code\ to\ the\ output\ file\n
+numComments=4

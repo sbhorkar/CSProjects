@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ProcedureCall
+comment0.text=\n\ The\ ProcedureCall\ objet\ represents\ when\ a\ procedure\ is\ called\ upon\ and\ \n\ therefore\ needs\ to\ run\ and\ evaluate.\ Therefore,\ it\ extends\ the\ Expression\n\ class.\ The\ ProcedureCall\ object\ has\ two\ instance\ variables\:\ the\ name\ of\ the\n\ procedure\ and\ the\ arguments\ given\ by\ the\ user.\ \n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 10/31/2023\n
+comment1.params=id\ args
+comment1.target=ProcedureCall(java.lang.String,\ java.util.List)
+comment1.text=\n\ The\ ProcedureCall\ constructor\ creates\ a\ new\ ProcedureCall\ object\ and\ \n\ instantiates\ the\ variables\ for\ its\ name\ and\ the\ arguments\ that\ need\n\ to\ be\ passed.\ \n\ \n\ @param\ id\ \ \ the\ name\ of\ the\ procedure\n\ @param\ args\ the\ list\ of\ arguments\ to\ be\ passed\ to\ the\ procedure\n\ @postcondition\ a\ new\ ProcedureCall\ object\ is\ created\n
+comment2.params=env
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ The\ eval()\ method\ evaluates\ the\ procedure\ call.\ It\ does\ this\ by\ first\n\ creating\ the\ child\ environment\ for\ this\ procedure.\ Then,\ it\ sets\ the\n\ arguments\ as\ the\ parameters\ for\ the\ procedure\ in\ the\ new\ child\n\ environment.\ Next,\ it\ sets\ the\ "return"\ value\ as\ 0.\ Finally,\ it\ executes\n\ the\ body\ of\ the\ procedure\ and\ returns\ its\ return\ value.\n\ \n\ @param\ env\ the\ given\ parent\ environment\n\ @return\ the\ return\ value\ for\ the\ procedure\ (if\ there\ is\ no\ specified\n\ \ \ \ \ \ \ \ \ return\ value,\ it\ returns\ 0)\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ The\ compile()\ method\ creates\ the\ MIPS\ equivalent\ of\ the\ PASCAL\ code.\ \n\ \n\ @param\ e\ the\ emitter\ that\ emits\ each\ line\ of\ MIPS\ code\ into\ the\ output\ file\n
+numComments=4
