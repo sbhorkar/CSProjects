@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ParserTester
+comment0.text=\n\ The\ ParserTester\ class\ first\ uses\ a\ Scanner\ to\ tokenize\ the\ user\ input,\ \n\ then\ uses\ the\ Parser\ object\ in\ order\ to\ evaluate\ its\ numerical\ value.\n\ \n\ @author\ Sanaa\ Bhorkar\n\ @version\ 9/30/2023\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Creates\ a\ new\ ParserTester\ object\n\ \n\ @param\ args\ arguments\ from\ the\ command\ line\n
+numComments=2

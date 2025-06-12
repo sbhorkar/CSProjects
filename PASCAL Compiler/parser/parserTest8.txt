@@ -1,0 +1,28 @@
+PROCEDURE Add(y,w,z);
+BEGIN
+    WRITELN(y);
+    WRITELN(w);
+    WRITELN(z);
+    x := x + y;
+END;
+
+BEGIN
+    x := 2;
+    y := x + 1;
+    x := x + y;
+    WRITELN(x * y);
+    IF x > y THEN 
+    BEGIN
+        WRITELN(x);
+        WRITELN(y);
+    END;
+    x := 10;
+    WRITELN(y);
+    ignore := Add(4,x,y);
+    WRITELN(x);
+    
+END;
+.
+.
+.
+.
